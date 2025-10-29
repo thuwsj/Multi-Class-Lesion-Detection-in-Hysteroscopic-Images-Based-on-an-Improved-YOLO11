@@ -1,0 +1,14 @@
+train: /root/ultralytics-main-hs/HS-CMU/train/images
+val: /root/ultralytics-main-hs/HS-CMU/val/images
+
+nc: 8  # 修改类别数
+names: ['SM', 'EC', 'EP', 'PHE', 'EHWA', 'IFB', 'CP', 'AEH']  # 英文缩写对应：
+
+# 0: Submucous Myoma (黏膜下子宫肌瘤)
+# 1: Endometrial Carcinoma (子宫内膜癌)
+# 2: Endometrial Polyp (子宫内膜息肉)
+# 3: Polypoid Hyperplasia of Endometrium (息肉样增生)
+# 4: Endometrial Hyperplasia without Atypia (增生不伴不典型)
+# 5: Intrauterine Foreign Body (宫内异物)
+# 6: Cervical Polyp (子宫颈息肉)
+# 7: Atypical Endometrial Hyperplasia (不典型增生)
